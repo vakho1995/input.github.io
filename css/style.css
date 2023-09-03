@@ -1,0 +1,89 @@
+.conteiner{
+    max-width: 1500px;
+    width: 100%;
+    height:741px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex{
+    display: flex;
+}
+.span-1{
+    font-size: 50px;
+    color: rgb(176, 93, 16);
+    transition: all 1s;
+}
+.span-2{
+    font-size: 30px;
+    color: rgb(13, 228, 71);
+    margin-right: 10px;
+    transition: all 1s;
+}
+.form-wraper{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-wraper{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-wraper input {
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+    border:none;
+    border-radius: 25px;
+    transition: all 1s;
+}
+.input[placeholder="type your name here"]{
+    text-align: center;
+}
+.input[placeholder="type your password here"]{
+    text-align: center;
+}
+
+.box{
+    background-color: #282857;
+    max-width: 350px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 25px; 
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(13, 228, 71);
+    margin-bottom: 50px;
+    border-radius: 25px;
+    border:none;
+    transition: all 1s;
+
+}
+.submit a {
+    font-size: 20px;
+    text-decoration:none;
+    color:rgb(176, 93, 16) ;
+    transition: all 1s;
+}
+/* hover */
+.box:hover{
+    .span-1{
+        color: rgb(13, 228, 71);
+    }
+    .span-2{
+        color: rgb(176, 93, 16);
+    }
+    .input{
+        background-color:rgb(210, 215, 221)
+    }
+    .submit{
+        background-color:rgb(176, 93, 16) ;
+    }
+    .submit a {
+        color:rgb(13, 228, 71);
+    }
+}
